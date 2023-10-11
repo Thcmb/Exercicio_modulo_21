@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 <body>
-    
+    <header>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__content__title">Homem-Aranha: Através do Aranhaverso</h1>
+            <ul class="hero__content__item">
+                <li>
+                    <img class="hero__content__10" src="./src/images/10.png" alt="restrição de idade 10 anos">
+                </li>
+                <li>2h 21min</li>
+                <li>Animação</li>
+                <li>Ação</li>
+                <li>Fantasia</li>
+                <li>Aventura</li>
+            </ul>
+            <button id="openTrailer" class="hero__content__button">
+                <i class="fas fa-play"></i>
+                Assista ao trailer
+            </button>
+            <p class="hero__content__text">
+                Miles Morales está de volta para o próximo capítulo da saga vencedora do Oscar®. Depois de se reunir com Gwen Stacy, o amigão da vizinhança e protetor em tempo integral do Brooklyn é catapultado através do Multiverso, onde ele encontra um time de Pessoas-Aranha que precisam proteger a própria existência. Quando os heróis não conseguem se unir para lidar com uma nova ameaça, Miles se vê dividido e precisa redefinir o que significa ser um herói para que ele consiga salvar as pessoas que mais ama.
+            </p>
+        </div>
+    </section>
+    <div id="videoOverlay" class="overlay">
+        <button id="closeTrailer" class="close">Fechar</button>
+        <video id="trailer" controls>
+            <source src="./src/video/Homem-Aranha_ Através do AranhaVerso _ Trailer Oficial Dublado.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de video.
+        </video>
+    </div>
+    <script src="./src/scripts/main.js"></script>
 </body>
 </html>

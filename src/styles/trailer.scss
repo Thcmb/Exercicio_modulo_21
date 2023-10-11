@@ -1,0 +1,31 @@
+#trailer {
+    max-width: 100%;
+    width: 100%;    
+    height: 100%;
+}
+
+#videoOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.92);
+    z-index: 1;
+}
+
+#closeTrailer {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    background-color: red;
+    border-radius: 50px;
+    color: #fff;
+    opacity: 90%;
+    border: none;
+    padding: 5px 9px;
+    cursor: pointer;
+    z-index: 1;
+}
+

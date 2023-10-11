@@ -1,5 +1,10 @@
-$corDeFundo: red;
+@use 'hero';
+@use 'trailer';
 
-body {
-    background-color: $corDeFundo;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
 }

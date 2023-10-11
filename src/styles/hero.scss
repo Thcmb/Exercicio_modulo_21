@@ -1,0 +1,62 @@
+@use 'variaveis';
+
+.hero {
+    padding: 5.6vw;
+    min-height: 100vh;
+    background-image: url(../images/cropped-1600-900-1318066.jpeg);
+    background-repeat: no-repeat;
+
+    &__content {
+        max-width: 640px;
+        margin-top: 11vh;
+
+        &__title {
+            color: variaveis.$corDoTexto;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 24px;
+        }
+
+        &__item {
+            display: flex;
+            color: variaveis.$corDoTexto;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__10 {
+            max-width: 35px;
+        }
+
+        &__button {
+            padding: 16px 70px;
+            font-size: 18px;
+            border: 1px solid variaveis.$corDoBotao;
+            border-radius: 3px;
+            border-color: transparent;
+            background-color: variaveis.$corDoBotao ;
+            color: variaveis.$corDoTexto;
+            font-weight: 700;
+            margin-bottom: 24px;
+            margin-top: 24px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken($color: variaveis.$corDoBotao, $amount: 5);
+            }
+
+            i {
+                margin-right: 10px;
+            }
+        }
+
+        &__text {
+            color: variaveis.$corDoTexto;
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}
